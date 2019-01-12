@@ -58,7 +58,7 @@ public class TelManager extends Activity {
 
 
      // Parse TelephonyManager values into String.
-    public  String getTelephonyOverview(final TelephonyManager telMgr) {
+    public  String getTelephonyOverview(final TelephonyManager telMgr) throws SecurityException{
         int callState = telMgr.getCallState();
         String callStateString = "NA";
         switch (callState) {
