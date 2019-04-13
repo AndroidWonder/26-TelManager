@@ -1,8 +1,8 @@
 /*
  * This example uses the telephony manager to monitor call state.
  * Use the emulator extended control panel to emulate an incoming call.
- * Notice the permissions in the Manifest. They are both considered dangerous.
- * Go into the emulator's Settings for this app and enable both.
+ * Notice the permissions in the Manifest. They are all considered dangerous.
+ * Go into the emulator's Settings for this app and enable location and phone.
  */
 package com.course.example.telmanager;
 
