@@ -25,7 +25,8 @@
 			android:layout_marginLeft="10px" 
 			android:layout_marginBottom="20px"
 			android:layout_below="@id/intro_label_telmgr" 
-			android:text="" />
+			android:text=""
+			android:textColor="#ffff0000"/>
 
 	</RelativeLayout>
 </ScrollView>
