@@ -13,8 +13,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+	namespace="com.course.example.telmanager"
     }
-    buildToolsVersion '33.0.1'
 }
 
 dependencies {
